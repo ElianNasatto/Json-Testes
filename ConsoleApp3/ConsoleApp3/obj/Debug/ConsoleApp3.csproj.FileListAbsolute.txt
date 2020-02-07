@@ -4,3 +4,9 @@ C:\Users\elian\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.pdb
 C:\Users\elian\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.csprojAssemblyReference.cache
 C:\Users\elian\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.exe
 C:\Users\elian\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.pdb
+C:\Users\elian\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\Newtonsoft.Json.dll
+C:\Users\elian\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\Newtonsoft.Json.xml
+C:\Users\elian\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.CopyComplete
+C:\Users\elian\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\HtmlAgilityPack.dll
+C:\Users\elian\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\elian\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\HtmlAgilityPack.xml

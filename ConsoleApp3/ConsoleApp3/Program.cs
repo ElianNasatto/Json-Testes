@@ -1,4 +1,7 @@
-﻿using System;
+﻿using HtmlAgilityPack;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -14,8 +17,17 @@ namespace ConsoleApp3
 
             WebClient client = new WebClient();
             //Download de um arquivo JSON
-            string ola = client.DownloadString("https://localhost:44396/Home/Conjunto");
+            string ola = client.DownloadString("https://localhost:44396/Home/Conjunto") ;
+            Casa casa = new Casa();
+            casa.Endereco = "ola mundo";
+            var geison = JsonConvert.SerializeObject(casa);
 
+            //Site para testar se o post esta funcionando, irá retornar um json
+            //https://reqbin.com/echo/post/json
+
+      
+            //como receber esse json no mvc?
+            string hehe = client.UploadString(@"https://localhost:44396/Home/SalvarCasa",geison.ToString());
             //Download de um arquivo json de uma pagina de teste contendo seu ip
             string meuIp = client.DownloadString("http://ip.jsontest.com/");
 
@@ -39,6 +51,11 @@ namespace ConsoleApp3
 
 
             Console.ReadLine();
+        }
+
+        public class Casa
+        {
+            public string Endereco { get; set; }
         }
     }
 }
